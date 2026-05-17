@@ -18,6 +18,7 @@ export const metadata: Metadata = {
     languages: { en: "/", "zh-CN": "/", "x-default": "/" },
   },
   openGraph: {
+    images: [{ url: "/opengraph-image.png", width: 1200, height: 630, alt: "The Architecture of Boredom · 无聊的建筑 — Attention, Dopamine, Reality" }],
     title: "The Architecture of Boredom — Boredom is a signal, not an emptiness",
     description:
       "Boredom is not empty. It is a signal that your mind can no longer find reality. A bilingual essay in 8 frames.",
@@ -28,6 +29,7 @@ export const metadata: Metadata = {
     alternateLocale: ["zh_CN"],
   },
   twitter: {
+    images: ["/twitter-image.png"],
     card: "summary_large_image",
     title: "The Architecture of Boredom · 无聊的建筑",
     description:
